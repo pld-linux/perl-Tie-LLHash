@@ -3,7 +3,7 @@ Summary:	Tie-LLHash perl module
 Summary(pl):	Modu³ perla Tie-LLHash
 Name:		perl-Tie-LLHash
 Version:	1.002
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
