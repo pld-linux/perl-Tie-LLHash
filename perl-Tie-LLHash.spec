@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	LLHash
-Summary:	Tie-LLHash perl module
-Summary(pl):	Modu³ perla Tie-LLHash
+Summary:	Tie::LLHash perl module
+Summary(pl):	Modu³ perla Tie::LLHash
 Name:		perl-Tie-LLHash
 Version:	1.002
 Release:	6
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie-LLHash perl module.
+Tie::LLHash perl module.
 
 %description -l pl
-Modu³ perla Tie-LLHash.
+Modu³ perla Tie::LLHash.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
