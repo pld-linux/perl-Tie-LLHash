@@ -2,7 +2,7 @@
 Summary:	Tie-LLHash perl module
 Summary(pl):	Modu³ perla Tie-LLHash
 Name:		perl-Tie-LLHash
-Version:	0.04
+Version:	1.002
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
@@ -34,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Tie/LLHash
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
