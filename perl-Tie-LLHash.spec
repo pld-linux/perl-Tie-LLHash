@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	LLHash
-Summary:	Tie::LLHash perl module
-Summary(pl):	Modu³ perla Tie::LLHash
+Summary:	Tie::LLHash.pm - ordered hashes
 Name:		perl-Tie-LLHash
 Version:	1.002
 Release:	6
@@ -15,10 +14,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie::LLHash perl module.
-
-%description -l pl
-Modu³ perla Tie::LLHash.
+This class implements an ordered hash-like object.  It's a cross between
+a Perl hash and a linked list.  Use it whenever you want the speed and
+structure of a Perl hash, but the orderedness of a list.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
