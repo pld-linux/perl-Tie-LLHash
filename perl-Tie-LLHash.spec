@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	LLHash
+%define		pdir	Tie
+%define		pnam	LLHash
 Summary:	Tie::LLHash Perl module - ordered hashes
 Summary(pl):	Modu³ Perla Tie::LLHash - uporz±dkowane hasze
 Name:		perl-Tie-LLHash
