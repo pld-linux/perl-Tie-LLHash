@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	LLHash
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie-LLHash perl module
 Summary(pl):	Modu³ perla Tie-LLHash
 Name:		perl-Tie-LLHash
 Version:	1.002
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Tie-LLHash perl module.
 Modu³ perla Tie-LLHash.
 
 %prep
-%setup -q -n Tie-LLHash-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
