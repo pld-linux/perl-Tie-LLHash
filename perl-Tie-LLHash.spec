@@ -4,7 +4,7 @@
 Summary:	Tie::LLHash.pm - ordered hashes
 Name:		perl-Tie-LLHash
 Version:	1.002
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
