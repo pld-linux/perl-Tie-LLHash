@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	LLHash
 Summary:	Tie::LLHash Perl module - ordered hashes
-Summary(pl):	Modu³ Perla Tie::LLHash - uporz±dkowane hasze
+Summary(pl.UTF-8):   ModuÅ‚ Perla Tie::LLHash - uporzÄ…dkowane hasze
 Name:		perl-Tie-LLHash
 Version:	1.003
 Release:	1
@@ -25,10 +25,10 @@ This class implements an ordered hash-like object. It's a cross
 between a Perl hash and a linked list. Use it whenever you want the
 speed and structure of a Perl hash, but the orderedness of a list.
 
-%description -l pl
-Ta klasa jest implementacj± obiektu podobnego do hasza. Jest on
-skrzy¿owaniem pomiêdzy perlowym haszem a list±. Przydaje siê kiedy
-potrzeba szybko¶ci i struktury perlowych haszy, ale uporz±dkowania
+%description -l pl.UTF-8
+Ta klasa jest implementacjÄ… obiektu podobnego do hasza. Jest on
+skrzyÅ¼owaniem pomiÄ™dzy perlowym haszem a listÄ…. Przydaje siÄ™ kiedy
+potrzeba szybkoÅ›ci i struktury perlowych haszy, ale uporzÄ…dkowania
 listy.
 
 %prep
