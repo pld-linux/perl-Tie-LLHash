@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	LLHash
 Summary:	Tie::LLHash Perl module - ordered hashes
-Summary(pl.UTF-8):   Moduł Perla Tie::LLHash - uporządkowane hasze
+Summary(pl.UTF-8):	Moduł Perla Tie::LLHash - uporządkowane hasze
 Name:		perl-Tie-LLHash
 Version:	1.003
 Release:	1
