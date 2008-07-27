@@ -9,7 +9,7 @@ Summary:	Tie::LLHash Perl module - ordered hashes
 Summary(pl.UTF-8):	Moduł Perla Tie::LLHash - uporządkowane hasze
 Name:		perl-Tie-LLHash
 Version:	1.003
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
