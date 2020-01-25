@@ -4,7 +4,6 @@
 
 %define		pdir	Tie
 %define		pnam	LLHash
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::LLHash Perl module - ordered hashes
 Summary(pl.UTF-8):	Moduł Perla Tie::LLHash - uporządkowane hasze
 Name:		perl-Tie-LLHash
